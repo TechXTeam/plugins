@@ -33,10 +33,10 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/vishvananda/netlink"
 
-	"github.com/containernetworking/cni/pkg/skel"
-	types100 "github.com/containernetworking/cni/pkg/types/100"
-	"github.com/containernetworking/plugins/pkg/ns"
-	"github.com/containernetworking/plugins/pkg/testutils"
+	"github.com/TechXTeam/cni/pkg/skel"
+	types100 "github.com/TechXTeam/cni/pkg/types/100"
+	"github.com/TechXTeam/plugins/pkg/ns"
+	"github.com/TechXTeam/plugins/pkg/testutils"
 )
 
 func getTmpDir() (string, error) {

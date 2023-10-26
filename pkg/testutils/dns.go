@@ -19,7 +19,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/containernetworking/cni/pkg/types"
+	"github.com/TechXTeam/cni/pkg/types"
 )
 
 // TmpResolvConf will create a temporary file and write the provided DNS settings to

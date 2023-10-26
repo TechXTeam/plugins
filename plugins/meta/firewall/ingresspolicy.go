@@ -21,8 +21,8 @@ import (
 
 	"github.com/coreos/go-iptables/iptables"
 
-	types100 "github.com/containernetworking/cni/pkg/types/100"
-	"github.com/containernetworking/plugins/pkg/utils"
+	types100 "github.com/TechXTeam/cni/pkg/types/100"
+	"github.com/TechXTeam/plugins/pkg/utils"
 )
 
 func setupIngressPolicy(conf *FirewallNetConf, prevResult *types100.Result) error {

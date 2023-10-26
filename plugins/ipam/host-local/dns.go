@@ -19,7 +19,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/containernetworking/cni/pkg/types"
+	"github.com/TechXTeam/cni/pkg/types"
 )
 
 // parseResolvConf parses an existing resolv.conf in to a DNS struct

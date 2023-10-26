@@ -23,8 +23,8 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/containernetworking/plugins/pkg/ns"
-	"github.com/containernetworking/plugins/pkg/testutils"
+	"github.com/TechXTeam/plugins/pkg/ns"
+	"github.com/TechXTeam/plugins/pkg/testutils"
 )
 
 const TABLE = "filter" // We'll monkey around here

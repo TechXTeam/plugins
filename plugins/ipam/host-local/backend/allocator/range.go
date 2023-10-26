@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/containernetworking/cni/pkg/types"
-	"github.com/containernetworking/plugins/pkg/ip"
+	"github.com/TechXTeam/cni/pkg/types"
+	"github.com/TechXTeam/plugins/pkg/ip"
 )
 
 // Canonicalize takes a given range and ensures that all information is consistent,

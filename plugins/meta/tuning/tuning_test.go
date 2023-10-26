@@ -26,11 +26,11 @@ import (
 	"github.com/vishvananda/netlink"
 	"golang.org/x/sys/unix"
 
-	"github.com/containernetworking/cni/pkg/skel"
-	"github.com/containernetworking/cni/pkg/types"
-	types100 "github.com/containernetworking/cni/pkg/types/100"
-	"github.com/containernetworking/plugins/pkg/ns"
-	"github.com/containernetworking/plugins/pkg/testutils"
+	"github.com/TechXTeam/cni/pkg/skel"
+	"github.com/TechXTeam/cni/pkg/types"
+	types100 "github.com/TechXTeam/cni/pkg/types/100"
+	"github.com/TechXTeam/plugins/pkg/ns"
+	"github.com/TechXTeam/plugins/pkg/testutils"
 )
 
 func buildOneConfig(cniVersion string, orig *TuningConf, prevResult types.Result) ([]byte, error) {

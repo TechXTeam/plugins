@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/containernetworking/cni/pkg/types"
-	"github.com/containernetworking/cni/pkg/types/create"
-	"github.com/containernetworking/cni/pkg/version"
+	"github.com/TechXTeam/cni/pkg/types"
+	"github.com/TechXTeam/cni/pkg/types/create"
+	"github.com/TechXTeam/cni/pkg/version"
 )
 
 // Exec is an interface encapsulates all operations that deal with finding
@@ -37,7 +37,7 @@ type Exec interface {
 // Plugin must return result in same version as specified in netconf; but
 // for backwards compatibility reasons if the result version is empty use
 // config version (rather than technically correct 0.1.0).
-// https://github.com/containernetworking/cni/issues/895
+// https://github.com/TechXTeam/cni/issues/895
 func fixupResultVersion(netconf, result []byte) (string, []byte, error) {
 	versionDecoder := &version.ConfigDecoder{}
 	confVersion, err := versionDecoder.Decode(netconf)

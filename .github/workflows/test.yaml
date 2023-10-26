@@ -68,7 +68,7 @@ jobs:
         env:
           GO111MODULE: off
         run: |
-          go get github.com/containernetworking/cni/cnitool
+          go get github.com/TechXTeam/cni/cnitool
           go get github.com/mattn/goveralls
           go get github.com/modocache/gover
 

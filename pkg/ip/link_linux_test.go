@@ -24,9 +24,9 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/vishvananda/netlink"
 
-	"github.com/containernetworking/plugins/pkg/ip"
-	"github.com/containernetworking/plugins/pkg/ns"
-	"github.com/containernetworking/plugins/pkg/testutils"
+	"github.com/TechXTeam/plugins/pkg/ip"
+	"github.com/TechXTeam/plugins/pkg/ns"
+	"github.com/TechXTeam/plugins/pkg/testutils"
 )
 
 var _ = Describe("Link", func() {

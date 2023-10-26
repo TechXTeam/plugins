@@ -26,7 +26,7 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/containernetworking/plugins/pkg/ns"
+	"github.com/TechXTeam/plugins/pkg/ns"
 )
 
 func getNsRunDir() string {

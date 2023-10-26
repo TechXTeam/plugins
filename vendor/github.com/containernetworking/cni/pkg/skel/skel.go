@@ -26,9 +26,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/containernetworking/cni/pkg/types"
-	"github.com/containernetworking/cni/pkg/utils"
-	"github.com/containernetworking/cni/pkg/version"
+	"github.com/TechXTeam/cni/pkg/types"
+	"github.com/TechXTeam/cni/pkg/utils"
+	"github.com/TechXTeam/cni/pkg/version"
 )
 
 // CmdArgs captures all the arguments passed in to the plugin

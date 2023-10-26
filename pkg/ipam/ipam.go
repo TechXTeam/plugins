@@ -17,8 +17,8 @@ package ipam
 import (
 	"context"
 
-	"github.com/containernetworking/cni/pkg/invoke"
-	"github.com/containernetworking/cni/pkg/types"
+	"github.com/TechXTeam/cni/pkg/invoke"
+	"github.com/TechXTeam/cni/pkg/types"
 )
 
 func ExecAdd(plugin string, netconf []byte) (types.Result, error) {

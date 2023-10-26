@@ -18,9 +18,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/containernetworking/cni/pkg/skel"
-	"github.com/containernetworking/cni/pkg/types"
-	"github.com/containernetworking/cni/pkg/version"
+	"github.com/TechXTeam/cni/pkg/skel"
+	"github.com/TechXTeam/cni/pkg/types"
+	"github.com/TechXTeam/cni/pkg/version"
 )
 
 func envCleanup() {

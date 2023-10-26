@@ -24,14 +24,14 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/vishvananda/netlink"
 
-	"github.com/containernetworking/cni/pkg/skel"
-	"github.com/containernetworking/cni/pkg/types"
-	types020 "github.com/containernetworking/cni/pkg/types/020"
-	types040 "github.com/containernetworking/cni/pkg/types/040"
-	types100 "github.com/containernetworking/cni/pkg/types/100"
-	"github.com/containernetworking/plugins/pkg/ns"
-	"github.com/containernetworking/plugins/pkg/testutils"
-	"github.com/containernetworking/plugins/plugins/ipam/host-local/backend/allocator"
+	"github.com/TechXTeam/cni/pkg/skel"
+	"github.com/TechXTeam/cni/pkg/types"
+	types020 "github.com/TechXTeam/cni/pkg/types/020"
+	types040 "github.com/TechXTeam/cni/pkg/types/040"
+	types100 "github.com/TechXTeam/cni/pkg/types/100"
+	"github.com/TechXTeam/plugins/pkg/ns"
+	"github.com/TechXTeam/plugins/pkg/testutils"
+	"github.com/TechXTeam/plugins/plugins/ipam/host-local/backend/allocator"
 )
 
 type Net struct {

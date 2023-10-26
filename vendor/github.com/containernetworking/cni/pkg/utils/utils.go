@@ -20,7 +20,7 @@ import (
 	"regexp"
 	"unicode"
 
-	"github.com/containernetworking/cni/pkg/types"
+	"github.com/TechXTeam/cni/pkg/types"
 )
 
 const (

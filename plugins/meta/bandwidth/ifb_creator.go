@@ -21,7 +21,7 @@ import (
 
 	"github.com/vishvananda/netlink"
 
-	"github.com/containernetworking/plugins/pkg/ip"
+	"github.com/TechXTeam/plugins/pkg/ip"
 )
 
 const latencyInMillis = 25

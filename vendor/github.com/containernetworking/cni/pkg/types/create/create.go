@@ -18,8 +18,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/containernetworking/cni/pkg/types"
-	convert "github.com/containernetworking/cni/pkg/types/internal"
+	"github.com/TechXTeam/cni/pkg/types"
+	convert "github.com/TechXTeam/cni/pkg/types/internal"
 )
 
 // DecodeVersion returns the CNI version from CNI configuration or result JSON,

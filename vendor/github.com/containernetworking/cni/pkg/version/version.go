@@ -18,9 +18,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/containernetworking/cni/pkg/types"
-	types100 "github.com/containernetworking/cni/pkg/types/100"
-	"github.com/containernetworking/cni/pkg/types/create"
+	"github.com/TechXTeam/cni/pkg/types"
+	types100 "github.com/TechXTeam/cni/pkg/types/100"
+	"github.com/TechXTeam/cni/pkg/types/create"
 )
 
 // Current reports the version of the CNI spec implemented by this library

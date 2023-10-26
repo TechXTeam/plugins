@@ -1,6 +1,6 @@
 [Unit]
 Description=CNI DHCP service socket
-Documentation=https://github.com/containernetworking/plugins/tree/master/plugins/ipam/dhcp
+Documentation=https://github.com/TechXTeam/plugins/tree/master/plugins/ipam/dhcp
 PartOf=cni-dhcp.service
 
 [Socket]

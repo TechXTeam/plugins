@@ -1,4 +1,4 @@
-[![test](https://github.com/containernetworking/plugins/actions/workflows/test.yaml/badge.svg)](https://github.com/containernetworking/plugins/actions/workflows/test.yaml?query=branch%3Amaster)
+[![test](https://github.com/TechXTeam/plugins/actions/workflows/test.yaml/badge.svg)](https://github.com/TechXTeam/plugins/actions/workflows/test.yaml?query=branch%3Amaster)
 
 # Plugins
 Some CNI network plugins, maintained by the containernetworking team. For more information, see the [CNI website](https://www.cni.dev).

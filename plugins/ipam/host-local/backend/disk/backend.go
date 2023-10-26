@@ -21,7 +21,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/containernetworking/plugins/plugins/ipam/host-local/backend"
+	"github.com/TechXTeam/plugins/plugins/ipam/host-local/backend"
 )
 
 const (

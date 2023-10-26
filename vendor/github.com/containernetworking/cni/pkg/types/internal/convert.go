@@ -17,7 +17,7 @@ package convert
 import (
 	"fmt"
 
-	"github.com/containernetworking/cni/pkg/types"
+	"github.com/TechXTeam/cni/pkg/types"
 )
 
 // ConvertFn should convert from the given arbitrary Result type into a

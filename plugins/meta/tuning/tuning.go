@@ -31,12 +31,12 @@ import (
 	"github.com/vishvananda/netlink"
 	"golang.org/x/sys/unix"
 
-	"github.com/containernetworking/cni/pkg/skel"
-	"github.com/containernetworking/cni/pkg/types"
-	current "github.com/containernetworking/cni/pkg/types/100"
-	"github.com/containernetworking/cni/pkg/version"
-	"github.com/containernetworking/plugins/pkg/ns"
-	bv "github.com/containernetworking/plugins/pkg/utils/buildversion"
+	"github.com/TechXTeam/cni/pkg/skel"
+	"github.com/TechXTeam/cni/pkg/types"
+	current "github.com/TechXTeam/cni/pkg/types/100"
+	"github.com/TechXTeam/cni/pkg/version"
+	"github.com/TechXTeam/plugins/pkg/ns"
+	bv "github.com/TechXTeam/plugins/pkg/utils/buildversion"
 )
 
 const (

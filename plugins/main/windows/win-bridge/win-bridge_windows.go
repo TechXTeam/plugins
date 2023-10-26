@@ -23,15 +23,15 @@ import (
 	"github.com/Microsoft/hcsshim"
 	"github.com/Microsoft/hcsshim/hcn"
 
-	"github.com/containernetworking/cni/pkg/skel"
-	"github.com/containernetworking/cni/pkg/types"
-	current "github.com/containernetworking/cni/pkg/types/100"
-	"github.com/containernetworking/cni/pkg/version"
+	"github.com/TechXTeam/cni/pkg/skel"
+	"github.com/TechXTeam/cni/pkg/types"
+	current "github.com/TechXTeam/cni/pkg/types/100"
+	"github.com/TechXTeam/cni/pkg/version"
 
-	"github.com/containernetworking/plugins/pkg/errors"
-	"github.com/containernetworking/plugins/pkg/hns"
-	"github.com/containernetworking/plugins/pkg/ipam"
-	bv "github.com/containernetworking/plugins/pkg/utils/buildversion"
+	"github.com/TechXTeam/plugins/pkg/errors"
+	"github.com/TechXTeam/plugins/pkg/hns"
+	"github.com/TechXTeam/plugins/pkg/ipam"
+	bv "github.com/TechXTeam/plugins/pkg/utils/buildversion"
 )
 
 type NetConf struct {

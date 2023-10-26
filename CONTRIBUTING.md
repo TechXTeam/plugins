@@ -56,11 +56,11 @@ We generally require test coverage of any new features or bug fixes.
 Here's how you can run the test suite on any system (even Mac or Windows) using
  [Vagrant](https://www.vagrantup.com/) and a hypervisor of your choice:
 
-First, ensure that you have the [CNI repo](https://github.com/containernetworking/cni) and this repo (plugins) cloned side-by-side:
+First, ensure that you have the [CNI repo](https://github.com/TechXTeam/cni) and this repo (plugins) cloned side-by-side:
 ```bash
 cd ~/workspace
-git clone https://github.com/containernetworking/cni
-git clone https://github.com/containernetworking/plugins
+git clone https://github.com/TechXTeam/cni
+git clone https://github.com/TechXTeam/plugins
 ```
 
 Next, boot the virtual machine and SSH in to run the tests:
@@ -72,8 +72,8 @@ vagrant ssh
 # you're now in a shell in a virtual machine
 sudo su
 go get github.com/onsi/ginkgo/ginkgo
-go install github.com/containernetworking/cni/cnitool
-cd /go/src/github.com/containernetworking/plugins
+go install github.com/TechXTeam/cni/cnitool
+cd /go/src/github.com/TechXTeam/plugins
 
 # to run the full test suite
 ./test_linux.sh

@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/containernetworking/cni/pkg/types"
-	"github.com/containernetworking/cni/pkg/version"
-	"github.com/containernetworking/plugins/pkg/ip"
+	"github.com/TechXTeam/cni/pkg/types"
+	"github.com/TechXTeam/cni/pkg/version"
+	"github.com/TechXTeam/plugins/pkg/ip"
 )
 
 // The top-level network config - IPAM plugins are passed the full configuration

@@ -36,6 +36,6 @@ Earlier versions of this library managed namespace creation, but as CNI does not
 ### Further Reading
  - https://github.com/golang/go/wiki/LockOSThread
  - http://morsmachine.dk/go-scheduler
- - https://github.com/containernetworking/cni/issues/262
+ - https://github.com/TechXTeam/cni/issues/262
  - https://golang.org/pkg/runtime/
  - https://www.weave.works/blog/linux-namespaces-and-go-don-t-mix

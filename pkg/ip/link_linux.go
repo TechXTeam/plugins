@@ -24,8 +24,8 @@ import (
 	"github.com/safchain/ethtool"
 	"github.com/vishvananda/netlink"
 
-	"github.com/containernetworking/plugins/pkg/ns"
-	"github.com/containernetworking/plugins/pkg/utils/sysctl"
+	"github.com/TechXTeam/plugins/pkg/ns"
+	"github.com/TechXTeam/plugins/pkg/utils/sysctl"
 )
 
 var ErrLinkNotFound = errors.New("link not found")

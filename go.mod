@@ -1,12 +1,12 @@
-module github.com/containernetworking/plugins
+module github.com/TechXTeam/plugins
 
 go 1.20
 
 require (
 	github.com/Microsoft/hcsshim v0.9.9
+	github.com/TechXTeam/cni v1.1.7
 	github.com/alexflint/go-filemutex v1.2.0
 	github.com/buger/jsonparser v1.1.1
-	github.com/containernetworking/cni v1.1.2
 	github.com/coreos/go-iptables v0.6.0
 	github.com/coreos/go-systemd/v22 v22.5.0
 	github.com/d2g/dhcp4 v0.0.0-20170904100407-a1d1b6c41b1c

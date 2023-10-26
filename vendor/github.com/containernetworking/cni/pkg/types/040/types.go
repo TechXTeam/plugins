@@ -21,9 +21,9 @@ import (
 	"net"
 	"os"
 
-	"github.com/containernetworking/cni/pkg/types"
-	types020 "github.com/containernetworking/cni/pkg/types/020"
-	convert "github.com/containernetworking/cni/pkg/types/internal"
+	"github.com/TechXTeam/cni/pkg/types"
+	types020 "github.com/TechXTeam/cni/pkg/types/020"
+	convert "github.com/TechXTeam/cni/pkg/types/internal"
 )
 
 const ImplementedSpecVersion string = "0.4.0"

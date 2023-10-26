@@ -20,11 +20,11 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/containernetworking/cni/pkg/skel"
-	"github.com/containernetworking/cni/pkg/types"
-	current "github.com/containernetworking/cni/pkg/types/100"
-	"github.com/containernetworking/cni/pkg/version"
-	bv "github.com/containernetworking/plugins/pkg/utils/buildversion"
+	"github.com/TechXTeam/cni/pkg/skel"
+	"github.com/TechXTeam/cni/pkg/types"
+	current "github.com/TechXTeam/cni/pkg/types/100"
+	"github.com/TechXTeam/cni/pkg/version"
+	bv "github.com/TechXTeam/plugins/pkg/utils/buildversion"
 )
 
 // PluginConf is whatever you expect your configuration json to be. This is whatever

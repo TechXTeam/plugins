@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/containernetworking/cni/pkg/types"
+	"github.com/TechXTeam/cni/pkg/types"
 )
 
 type RawExec struct {

@@ -7,7 +7,7 @@ DOCKER="${DOCKER:-docker}"
 TAG=$(git describe --tags --dirty)
 RELEASE_DIR=release-${TAG}
 
-BUILDFLAGS="-ldflags '-extldflags -static -X github.com/containernetworking/plugins/pkg/utils/buildversion.BuildVersion=${TAG}'"
+BUILDFLAGS="-ldflags '-extldflags -static -X github.com/TechXTeam/plugins/pkg/utils/buildversion.BuildVersion=${TAG}'"
 
 OUTPUT_DIR=bin
 
@@ -16,10 +16,10 @@ rm -Rf ${SRC_DIR}/${RELEASE_DIR}
 mkdir -p ${SRC_DIR}/${RELEASE_DIR}
 mkdir -p ${OUTPUT_DIR}
 
-$DOCKER run -ti -v ${SRC_DIR}:/go/src/github.com/containernetworking/plugins:z --rm golang:1.20-alpine \
+$DOCKER run -ti -v ${SRC_DIR}:/go/src/github.com/TechXTeam/plugins:z --rm golang:1.20-alpine \
 /bin/sh -xe -c "\
     apk --no-cache add bash tar;
-    cd /go/src/github.com/containernetworking/plugins; umask 0022;
+    cd /go/src/github.com/TechXTeam/plugins; umask 0022;
 
     for arch in amd64 arm arm64 ppc64le s390x mips64le riscv64; do \
         rm -f ${OUTPUT_DIR}/*; \

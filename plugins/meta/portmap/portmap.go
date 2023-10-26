@@ -24,8 +24,8 @@ import (
 	"github.com/coreos/go-iptables/iptables"
 	"github.com/vishvananda/netlink"
 
-	"github.com/containernetworking/plugins/pkg/utils"
-	"github.com/containernetworking/plugins/pkg/utils/sysctl"
+	"github.com/TechXTeam/plugins/pkg/utils"
+	"github.com/TechXTeam/plugins/pkg/utils/sysctl"
 )
 
 // This creates the chains to be added to iptables. The basic structure is

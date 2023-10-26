@@ -17,7 +17,7 @@ package convert
 import (
 	"fmt"
 
-	"github.com/containernetworking/cni/pkg/types"
+	"github.com/TechXTeam/cni/pkg/types"
 )
 
 type ResultFactoryFunc func([]byte) (types.Result, error)

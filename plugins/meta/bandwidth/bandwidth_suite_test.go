@@ -30,7 +30,7 @@ import (
 	"github.com/onsi/gomega/gexec"
 	"github.com/vishvananda/netlink"
 
-	"github.com/containernetworking/plugins/pkg/ns"
+	"github.com/TechXTeam/plugins/pkg/ns"
 )
 
 func TestTBF(t *testing.T) {
@@ -41,9 +41,9 @@ func TestTBF(t *testing.T) {
 var echoServerBinaryPath, echoClientBinaryPath string
 
 var _ = SynchronizedBeforeSuite(func() []byte {
-	serverBinaryPath, err := gexec.Build("github.com/containernetworking/plugins/pkg/testutils/echo/server")
+	serverBinaryPath, err := gexec.Build("github.com/TechXTeam/plugins/pkg/testutils/echo/server")
 	Expect(err).NotTo(HaveOccurred())
-	clientBinaryPath, err := gexec.Build("github.com/containernetworking/plugins/pkg/testutils/echo/client")
+	clientBinaryPath, err := gexec.Build("github.com/TechXTeam/plugins/pkg/testutils/echo/client")
 	Expect(err).NotTo(HaveOccurred())
 	return []byte(strings.Join([]string{serverBinaryPath, clientBinaryPath}, ","))
 }, func(data []byte) {

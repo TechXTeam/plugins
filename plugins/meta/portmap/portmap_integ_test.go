@@ -30,10 +30,9 @@ import (
 	"github.com/onsi/gomega/gexec"
 	"github.com/vishvananda/netlink"
 
-	"github.com/containernetworking/cni/libcni"
-	"github.com/containernetworking/cni/pkg/types/100"
-	"github.com/containernetworking/plugins/pkg/ns"
-	"github.com/containernetworking/plugins/pkg/testutils"
+	"github.com/TechXTeam/cni/libcni"
+	"github.com/TechXTeam/plugins/pkg/ns"
+	"github.com/TechXTeam/plugins/pkg/testutils"
 )
 
 func makeConfig(ver string) *libcni.NetworkConfigList {

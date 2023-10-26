@@ -21,7 +21,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/containernetworking/plugins/pkg/link"
+	"github.com/TechXTeam/plugins/pkg/link"
 )
 
 var _ = Describe("spoofcheck", func() {

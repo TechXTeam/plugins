@@ -33,11 +33,11 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/containernetworking/cni/pkg/skel"
-	"github.com/containernetworking/cni/pkg/types"
-	current "github.com/containernetworking/cni/pkg/types/100"
-	"github.com/containernetworking/cni/pkg/version"
-	bv "github.com/containernetworking/plugins/pkg/utils/buildversion"
+	"github.com/TechXTeam/cni/pkg/skel"
+	"github.com/TechXTeam/cni/pkg/types"
+	current "github.com/TechXTeam/cni/pkg/types/100"
+	"github.com/TechXTeam/cni/pkg/version"
+	bv "github.com/TechXTeam/plugins/pkg/utils/buildversion"
 )
 
 // PortMapEntry corresponds to a single entry in the port_mappings argument,

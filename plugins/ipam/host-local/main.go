@@ -19,13 +19,13 @@ import (
 	"net"
 	"strings"
 
-	"github.com/containernetworking/cni/pkg/skel"
-	"github.com/containernetworking/cni/pkg/types"
-	current "github.com/containernetworking/cni/pkg/types/100"
-	"github.com/containernetworking/cni/pkg/version"
-	bv "github.com/containernetworking/plugins/pkg/utils/buildversion"
-	"github.com/containernetworking/plugins/plugins/ipam/host-local/backend/allocator"
-	"github.com/containernetworking/plugins/plugins/ipam/host-local/backend/disk"
+	"github.com/TechXTeam/cni/pkg/skel"
+	"github.com/TechXTeam/cni/pkg/types"
+	current "github.com/TechXTeam/cni/pkg/types/100"
+	"github.com/TechXTeam/cni/pkg/version"
+	bv "github.com/TechXTeam/plugins/pkg/utils/buildversion"
+	"github.com/TechXTeam/plugins/plugins/ipam/host-local/backend/allocator"
+	"github.com/TechXTeam/plugins/plugins/ipam/host-local/backend/disk"
 )
 
 func main() {

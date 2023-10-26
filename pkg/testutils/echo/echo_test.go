@@ -16,9 +16,9 @@ import (
 var serverBinaryPath, clientBinaryPath string
 
 var _ = SynchronizedBeforeSuite(func() []byte {
-	serverBinaryPath, err := gexec.Build("github.com/containernetworking/plugins/pkg/testutils/echo/server")
+	serverBinaryPath, err := gexec.Build("github.com/TechXTeam/plugins/pkg/testutils/echo/server")
 	Expect(err).NotTo(HaveOccurred())
-	clientBinaryPath, err := gexec.Build("github.com/containernetworking/plugins/pkg/testutils/echo/client")
+	clientBinaryPath, err := gexec.Build("github.com/TechXTeam/plugins/pkg/testutils/echo/client")
 	Expect(err).NotTo(HaveOccurred())
 	return []byte(strings.Join([]string{serverBinaryPath, clientBinaryPath}, ","))
 }, func(data []byte) {

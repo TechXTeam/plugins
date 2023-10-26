@@ -21,9 +21,9 @@ import (
 	"os"
 	"strconv"
 
-	current "github.com/containernetworking/cni/pkg/types/100"
-	"github.com/containernetworking/plugins/pkg/ip"
-	"github.com/containernetworking/plugins/plugins/ipam/host-local/backend"
+	current "github.com/TechXTeam/cni/pkg/types/100"
+	"github.com/TechXTeam/plugins/pkg/ip"
+	"github.com/TechXTeam/plugins/plugins/ipam/host-local/backend"
 )
 
 type IPAllocator struct {
@@ -75,7 +75,7 @@ func (a *IPAllocator) Get(id string, ifname string, requestedIP net.IP) (*curren
 	} else {
 		// try to get allocated IPs for this given id, if exists, just return error
 		// because duplicate allocation is not allowed in SPEC
-		// https://github.com/containernetworking/cni/blob/master/SPEC.md
+		// https://github.com/TechXTeam/cni/blob/master/SPEC.md
 		allocatedIPs := a.store.GetByID(id, ifname)
 		for _, allocatedIP := range allocatedIPs {
 			// check whether the existing IP belong to this range set

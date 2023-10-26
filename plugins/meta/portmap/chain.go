@@ -21,7 +21,7 @@ import (
 	"github.com/coreos/go-iptables/iptables"
 	"github.com/mattn/go-shellwords"
 
-	"github.com/containernetworking/plugins/pkg/utils"
+	"github.com/TechXTeam/plugins/pkg/utils"
 )
 
 type chain struct {

@@ -15,7 +15,7 @@
 package version
 
 import (
-	"github.com/containernetworking/cni/pkg/types/create"
+	"github.com/TechXTeam/cni/pkg/types/create"
 )
 
 // ConfigDecoder can decode the CNI version available in network config data

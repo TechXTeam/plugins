@@ -15,7 +15,7 @@
 package libcni
 
 // Note this is the actual implementation of the CNI specification, which
-// is reflected in the https://github.com/containernetworking/cni/blob/master/SPEC.md file
+// is reflected in the https://github.com/TechXTeam/cni/blob/master/SPEC.md file
 // it is typically bundled into runtime providers (i.e. containerd or cri-o would use this
 // before calling runc or hcsshim).  It is also bundled into CNI providers as well, for example,
 // to add an IP to a container, to parse the configuration of the CNI and so on.
@@ -29,11 +29,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/containernetworking/cni/pkg/invoke"
-	"github.com/containernetworking/cni/pkg/types"
-	"github.com/containernetworking/cni/pkg/types/create"
-	"github.com/containernetworking/cni/pkg/utils"
-	"github.com/containernetworking/cni/pkg/version"
+	"github.com/TechXTeam/cni/pkg/invoke"
+	"github.com/TechXTeam/cni/pkg/types"
+	"github.com/TechXTeam/cni/pkg/types/create"
+	"github.com/TechXTeam/cni/pkg/utils"
+	"github.com/TechXTeam/cni/pkg/version"
 )
 
 var (

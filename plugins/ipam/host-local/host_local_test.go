@@ -24,11 +24,11 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/containernetworking/cni/pkg/skel"
-	"github.com/containernetworking/cni/pkg/types"
-	types100 "github.com/containernetworking/cni/pkg/types/100"
-	"github.com/containernetworking/plugins/pkg/testutils"
-	"github.com/containernetworking/plugins/plugins/ipam/host-local/backend/disk"
+	"github.com/TechXTeam/cni/pkg/skel"
+	"github.com/TechXTeam/cni/pkg/types"
+	types100 "github.com/TechXTeam/cni/pkg/types/100"
+	"github.com/TechXTeam/plugins/pkg/testutils"
+	"github.com/TechXTeam/plugins/plugins/ipam/host-local/backend/disk"
 )
 
 const LineBreak = "\r\n"

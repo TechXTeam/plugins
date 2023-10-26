@@ -15,7 +15,7 @@
 package testutils
 
 import (
-	"github.com/containernetworking/cni/pkg/version"
+	"github.com/TechXTeam/cni/pkg/version"
 )
 
 // AllSpecVersions contains all CNI spec version numbers
